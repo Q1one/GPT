@@ -1,0 +1,24 @@
+.Post {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    
+    background: #000;
+    
+    .single {
+        display: flex;
+        flex-direction: column;
+        
+        border-radius: 10px;
+        
+        background: #666;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Post {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,0 +1,22 @@
+.Pagination {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+
+    gap: 5px;
+    padding: 10px;
+    
+    & button {
+        all: unset;
+
+        width: 30px;
+        aspect-ratio: 1;
+
+        text-align: center;
+
+        border-radius: 50%;
+
+        background: #0ff;
+    }
+}
